@@ -12,10 +12,11 @@
 .headerContent {
   display: block;
   text-align: center;
-  margin-top: 200px;
-  max-width: 650px;
-  /* margin-top: 400px; */
-  margin: 200px auto 0 auto;
+  top: 50%;
+  left: 50%;
+  margin: 50px 0;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .headerContent .h1 {
@@ -61,7 +62,7 @@
 .features {
   padding: 50px 12%;
   font-size: 22px;
-  /* position: absolute; */
+  margin-top: -80px;
 }
 
 .row {

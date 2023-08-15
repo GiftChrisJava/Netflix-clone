@@ -8,26 +8,29 @@ import FeatureImg4 from "../../public/feature-4.png";
 
 const Home = () => {
   return (
-    <div className={styles.header}>
-      <div className={styles.headerContent}>
-        <h1 className={styles.h1}>Unlimited movies, Tv shows and more</h1>
-        <h3 className={styles.h3}>watch anywhere. Cancel anytime</h3>
-        <p className={styles.p}>
-          Ready to watch? Enter your email to create or restart your membership
-        </p>
+    <div className={styles.main}>
+      <div className={styles.header}>
+        <div className={styles.headerContent}>
+          <h1 className={styles.h1}>Unlimited movies, Tv shows and more</h1>
+          <h3 className={styles.h3}>watch anywhere. Cancel anytime</h3>
+          <p className={styles.p}>
+            Ready to watch? Enter your email to create or restart your
+            membership
+          </p>
 
-        <form className={styles.emailSignup}>
-          <input
-            type="email"
-            placeholder="Email Address"
-            required
-            className={styles.input}
-          />
+          <form className={styles.emailSignup}>
+            <input
+              type="email"
+              placeholder="Email Address"
+              required
+              className={styles.input}
+            />
 
-          <button className={styles.btn} type="submit">
-            Get Started
-          </button>
-        </form>
+            <button className={styles.btn} type="submit">
+              Get Started
+            </button>
+          </form>
+        </div>
       </div>
 
       <div className={styles.features}>
