@@ -185,6 +185,22 @@ const Home = () => {
             </div>
           </li>
         </ul>
+
+        <small className={styles.small}>
+          Ready to watch? Enter your email to create or restart your membership
+        </small>
+        <form className={styles.emailSignup}>
+          <input
+            type="email"
+            placeholder="Email Address"
+            required
+            className={styles.input}
+          />
+
+          <button className={styles.btn} type="submit">
+            Get Started
+          </button>
+        </form>
       </div>
     </div>
   );
