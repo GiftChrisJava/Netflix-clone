@@ -7,7 +7,7 @@
 }
 
 .img {
-  width: 190px;
+  width: 180px;
   cursor: pointer;
   margin-left: 150px;
 }
@@ -40,4 +40,5 @@
 .downIcon {
   width: 12px;
   margin-left: 10px;
+  height: 6px;
 }

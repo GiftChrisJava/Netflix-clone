@@ -8,3 +8,89 @@
   padding: 10px 8%;
   position: relative;
 }
+
+.headerContent {
+  display: block;
+  text-align: center;
+  margin-top: 200px;
+  max-width: 650px;
+  /* margin-top: 400px; */
+  margin: 200px auto 0 auto;
+}
+
+.headerContent .h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600px;
+  text-align: center;
+  align-items: center;
+}
+
+.headerContent h3 {
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.emailSignup {
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.emailSignup .input {
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+}
+
+.emailSignup .btn {
+  background: #db0001;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+
+/* ----- features ------  */
+
+.features {
+  padding: 50px 12%;
+  font-size: 22px;
+  /* position: absolute; */
+}
+
+.row {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+  margin-top: 12%;
+}
+
+.textCol {
+  flex-basis: 50%;
+  /* margin-bottom: 20px; */
+}
+
+.imgCol {
+  flex-basis: 50%;
+  /* margin-bottom: 20px; */
+}
+
+.imgCol .img {
+  display: block;
+  width: 90%;
+  margin: auto;
+  height: 300px;
+}
+.features .h2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
