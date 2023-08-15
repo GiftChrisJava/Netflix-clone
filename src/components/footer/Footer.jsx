@@ -70,7 +70,7 @@ export const Footer = () => {
         English
         <Image src={downIcon} className={styles.downIcon} />
       </button>
-      <p className={copyrightTxt}>Netflix Malawi</p>
+      <p className={styles.copyrightTxt}>Netflix Malawi</p>
     </div>
   );
 };
