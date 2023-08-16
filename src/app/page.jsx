@@ -93,7 +93,12 @@ const Home = () => {
 
         <ul className={styles.accordion}>
           <li className={styles.li}>
-            <input type="radio" name="accordion" id="first" />
+            <input
+              className={styles.input}
+              type="radio"
+              name="accordion"
+              id="first"
+            />
             <label className={styles.label} for="first">
               What is Netflix
             </label>
@@ -109,7 +114,12 @@ const Home = () => {
           </li>
 
           <li className={styles.li}>
-            <input type="radio" name="accordion" id="second" />
+            <input
+              className={styles.input}
+              type="radio"
+              name="accordion"
+              id="second"
+            />
             <label className={styles.label} for="second">
               How much Neflix cost ?
             </label>
@@ -125,7 +135,12 @@ const Home = () => {
           </li>
 
           <li className={styles.li}>
-            <input type="radio" name="accordion" id="third" />
+            <input
+              className={styles.input}
+              type="radio"
+              name="accordion"
+              id="third"
+            />
             <label className={styles.label} for="third">
               Where can i watch ?
             </label>
@@ -141,7 +156,12 @@ const Home = () => {
           </li>
 
           <li className={styles.li}>
-            <input type="radio" name="accordion" id="fourth" />
+            <input
+              className={styles.input}
+              type="radio"
+              name="accordion"
+              id="fourth"
+            />
             <label className={styles.label} for="fourth">
               How do i cancel ?
             </label>
@@ -157,7 +177,12 @@ const Home = () => {
           </li>
 
           <li className={styles.li}>
-            <input type="radio" name="accordion" id="firth" />
+            <input
+              className={styles.input}
+              type="radio"
+              name="accordion"
+              id="firth"
+            />
             <label className={styles.label} for="firth">
               What can i watch on Netflix ?
             </label>
@@ -173,7 +198,12 @@ const Home = () => {
           </li>
 
           <li className={styles.li}>
-            <input type="radio" name="accordion" id="sixth" />
+            <input
+              className={styles.input}
+              type="radio"
+              name="accordion"
+              id="sixth"
+            />
             <label className={styles.label} for="sixth">
               Is Netflix good for kids?
             </label>

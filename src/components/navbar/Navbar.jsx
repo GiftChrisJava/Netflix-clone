@@ -15,7 +15,7 @@ export const Navbar = () => {
             English
             <Image src={downIcon} className={styles.downIcon} />
           </button>
-          <button className={styles.btn}>Sign in</button>
+          <button className={styles.btn}>LogIn</button>
         </div>
       </nav>
     </div>
